@@ -1,6 +1,7 @@
 {
     "databaseConfig": {
-        "host": "mongodb",
-        "database": "funWithDocker"
+        "host": "127.0.0.1",
+        "dbPORT": "27017",
+        "database": "NEMD_development"
     }
 }

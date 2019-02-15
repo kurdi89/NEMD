@@ -1,0 +1,7 @@
+{
+    "databaseConfig": {
+        "host": "mongodb",
+        "dbPORT": "27017",
+        "database": "NEMD_production"
+    }
+}
