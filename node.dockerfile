@@ -17,7 +17,7 @@
 
 FROM node:latest
 
-LABEL author="Abdul Kurdi"
+LABEL author="Dan Wahlin"
 
 ENV NODE_ENV=development 
 ENV PORT=3000
