@@ -26,9 +26,12 @@
 # Run: docker exec nodeapp node dbSeeder.js
 
 ### latest comments :
+# build the image : 
+# docker-compose build
 # docker run -d --name my-mongodb mongo
-# image should be created already (if you have it) :
 # docker run -d -p 3000:3000 --link my-mongodb:mongodb --name nodeapp nemd_node
+
+# image should be created already,
 ## if image was not created then run : docker-compose build, docker-compose up, then image nemd_app will be created :
 # then dbSeeder :
 # Run: docker exec nodeapp node dbSeeder.js
